@@ -1,31 +1,26 @@
 import PropTypes from 'prop-types';
+import Button from './Button';
 
-const Header = ({verb, name, times}) => {
+const Header = ({title}) => {
+
+  const onClick = () => {
+    console.log('Click')
+  }
+
   return (
-    <header>
-      <h1 style={headingStyle}>
-        Say {verb} to {name} {times} times.
-      </h1>
+    <header className='header'>
+      <h1> {title} </h1>
+      <Button color='green' text='Add' onClick={onClick}/>
     </header>
   )
 }
 
 Header.defaultProps = {
-  verb: 'hello',
-  name: 'favourite user',
-  times: '2'
+  title: 'Task Tracker',
 }
 
 Header.propTypes = {
-  verb: PropTypes.string.isRequired,
-  name: PropTypes.string,
-  times: PropTypes.number
-}
-
-// CSS in JS
-const headingStyle = {
-  color: 'red',
-  backgroundColor: 'black'
+  title: PropTypes.string.isRequired,
 }
 
 export default Header
