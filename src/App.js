@@ -6,25 +6,13 @@ import AddTask from './components/AddTask'
 const App = () => {
 
   const [tasks, setTasks] = useState([
-    { 
-      id: 1,
-      text: 'Doctors Appointment',
-      day: 'Feb 5th at 2:30pm',
-      reminder: true,
-    },
-    { 
-      id: 2,
-      text: 'Meeting at School',
-      day: 'Feb 5th at 4:10pm',
-      reminder: true,
-    },
-    { 
-      id: 3,
-      text: 'Food Shopping',
-      day: 'Feb 6th at 2:30pm',
-      reminder: false,
-    },
-  ]);
+   {
+      "text": "Sample Task",
+      "day": "24th July, Friday @ 7pm",
+      "reminder": true,
+      "id": 1
+    }, 
+  ])
 
   const [showAddTask, setShowAddTask] = useState(false)
 
@@ -40,8 +28,8 @@ const App = () => {
 
   // Toggle Reminder
   const toggleReminder = (id) => {
-    setTasks(tasks.map((task) => task.id !== id 
-    ? task : {...task, reminder: !task.reminder}))
+    setTasks(tasks.map((task) => task.id === id 
+    ? {...task, reminder: !task.reminder} : task))
   }
 
   return (
@@ -60,4 +48,4 @@ const App = () => {
   )
 };
 
-export default App;
+export default App
