@@ -20,6 +20,8 @@ jobs:
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
+        deploy_key: ${{ secrets.GITHUB_TOKEN }}
+        external_repository: patwadeepak/task-tracker-react
+        destination_dir: docs
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: main
-        publish_dir: ./docs
+        publish_branch: master
