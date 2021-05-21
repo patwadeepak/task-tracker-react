@@ -1,5 +1,7 @@
 ## Introduction
-A simple to do or what I called is a Task Tracker App using React framework.
+A simple to do or what I called is a Task Tracker App using React framework. Try it [here](https://patwadeepak.github.io/task-tracker-react/).
+I have implemented the local storage feature. Meaning all data remains with your browser only and it remembers it even if open it after some days.
+One can actually use it regularly by just bookmarking the link in browser.
 
 ## Purpose
 I made it for learning purpose and it works pretty well if you use it with a json server backend.
