@@ -1,11 +1,12 @@
 ## Introduction
-A simple to do or what I called is a Task Tracker App using React framework. Try it [here](https://patwadeepak.github.io/task-tracker-react/).
-I have implemented the local storage feature. Meaning all data remains with your browser only.
-Task Tracker will remember the tasks even if open it is opened after some days using same browser.
-One can actually use it regularly by just bookmarking the link in browser.
+A simple app to keep track of some tasks at hand developed using React. [Try here](https://patwadeepak.github.io/task-tracker-react/).<br>
+I have implemented the local storage feature. Meaning all data remains with your browser only.<br>
+Task Tracker will remember the tasks even if you open it after some days using same browser.
+
+#### Want to use it regularly ? Just bookmark it
 
 ## Purpose
-I made it for learning purpose and it works pretty well if you use it with a json server backend.
+I made it for learning purpose and it works pretty well you know.
 
 ## Usage
 Notice below lines of code in [`src\index.js`](https://github.com/patwadeepak/task-tracker-react/blob/master/src/index.js) -
@@ -18,8 +19,9 @@ import App from './App'`<br>`
 Just swap them and you get a json server backend too.
 
 ## Planned features
-Learning happens only when you actually develop useful features. I have plans to add localStorage support so anyone using a browser can directly use it without json server backend and have persistent data across page refresh.
-
+Learning happens only when you actually develop useful features.<br>
+Local Storage - Done<br>
+Dark Theme - Pending<br>
 Basically no swapping as mentioned and in [usage](https://github.com/patwadeepak/task-tracker-react#usage) and no need to run a json backend server.
 ##### PS: I think the UI is quite large just Zoom out to 80% for now. 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
