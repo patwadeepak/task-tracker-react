@@ -59,6 +59,10 @@ body {
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .task:hover {
