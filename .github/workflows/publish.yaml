@@ -23,5 +23,4 @@ jobs:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
         external_repository: patwadeepak/task-tracker-react
         destination_dir: docs
-        github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: master
