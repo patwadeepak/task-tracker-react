@@ -1,6 +1,7 @@
 ## Introduction
 A simple to do or what I called is a Task Tracker App using React framework. Try it [here](https://patwadeepak.github.io/task-tracker-react/).
-I have implemented the local storage feature. Meaning all data remains with your browser only and it remembers it even if open it after some days.
+I have implemented the local storage feature. Meaning all data remains with your browser only.
+Task Tracker will remember the tasks even if open it is opened after some days using same browser.
 One can actually use it regularly by just bookmarking the link in browser.
 
 ## Purpose
