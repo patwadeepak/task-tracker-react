@@ -1,4 +1,4 @@
-name: Publish to main
+name: Publish to master
 
 on:
   repository_dispatch:
@@ -33,5 +33,4 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
-        destination_dir: docs
         publish_branch: master
