@@ -8,10 +8,15 @@
 # testing
 /coverage
 
+# builds
+docs
+build
+
 # VSCODE
 .vscode
 
 # misc
+.nojekyll
 .DS_Store
 .env.local
 .env.development.local
