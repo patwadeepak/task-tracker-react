@@ -22,7 +22,7 @@ Just swap them and you get a json server backend too.
 Learning happens only when you actually develop useful features.<br>
 Local Storage - Done<br>
 Dark Theme - Pending<br>
-Basically no swapping as mentioned and in [usage](https://github.com/patwadeepak/task-tracker-react#usage) and no need to run a json backend server.
+
 ##### PS: I think the UI is quite large just Zoom out to 80% for now. 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
